@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #FAF9F6, #F5F5DC);
+    color: #2C2C54;
+}
+
+
+.title-center { text-align: center; }
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8B6F47;
+    color: white;
+    padding: 15px;
+}
+
+
+
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+
+.title {
+    font-size: 18px;
+}
+
+
+
+
+.auth a {
+    color: #F5F5DC;
+    text-decoration: none;
+}
+
+
+
+
+.auth a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: #EADBC8;
+    padding: 12px;
+}
+
+
+
+
+.menu a {
+    color: #2C2C54;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+.menu a:hover {
+    color: #8B6F47;
+}
+
+
+
+
+.currentpage {
+    color: #8B6F47;
+}
+
+
+
+
+.menu-item {
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    color: #2C2C54;
+}
+
+
+
+
+.menu-item:hover {
+    color: #8B6F47;
+}
+
+
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    background-color: #FAF9F6;
+    border: 1px solid #EADBC8;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+
+
+
+.dropdown a {
+    display: block;
+    color: #2C2C54;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+
+
+.dropdown a:hover {
+    background-color: #F5F5DC;
+}
+
+
+
+
+.menu-item:hover .dropdown {
+    display: block;
+}
+
+
+
+
+.content {
+    padding: 30px;
+}
+
+
+.staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.staff-card {
+    width: 28%;
+    background-color: #FAF9F6;
+    border: 1px solid #EADBC8;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.staff-card:hover {
+    transform: scale(1.05);
+    background-color: #F5F5DC;
+}
+
+.staff-card h3 {
+    color: #8B6F47;
+    margin-bottom: 10px;
+}
+
+.staff-card p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.staff-role {
+    font-weight: bold;
+    color: #2C2C54;
+}
+
+
+.footer {
+    background-color: #4B3F2F;
+    color: #F5F5DC;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+.footer a {
+    color: #A3B18A;
+    text-decoration: none;
+}
+
+
+
+
+.footer a:hover {
+    color: white;
+}
+
+
+.admin-flex {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+
+.admin-box {
+    width: 300px;
+    text-align: center;
+    border: 2px solid #D2B48C;
+    transition: 0.3s;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+.admin-box:hover {
+    transform: scale(1.05);
+}
